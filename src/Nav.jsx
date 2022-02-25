@@ -21,13 +21,13 @@ export default function Nav() {
       <a className="link" href="/">
         Home
       </a>
-      <a className="link" href="/Games">
+      <a className="link" href="/games">
         Games
       </a>
-      <a className="link" href="/Gallery">
+      <a className="link" href="/gallery">
         Gallery
       </a>
-      <a className="link" href="/Other">
+      <a className="link" href="/other">
         Other
       </a>
       <label className="toggleMode">
