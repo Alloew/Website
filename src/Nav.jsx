@@ -2,7 +2,7 @@ export default function Nav() {
   window.onload = () => {
     if (localStorage.getItem("darkmode") === "false") {
       document.getElementsByTagName("html")[0].classList.toggle("light");
-      var dl = document.getElementById("dark/light mode") as HTMLInputElement;
+      var dl = document.getElementById("dark/light mode");
       dl.checked = true;
     }
   };

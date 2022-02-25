@@ -1,7 +1,7 @@
 export default function Youtube() {
   function embed() {
-    var id = document.getElementById("id") as HTMLInputElement;
-    var frame = document.getElementById("frame") as HTMLIFrameElement;
+    var id = document.getElementById("id");
+    var frame = document.getElementById("frame");
     if (id.value.length === 11) {
       frame.src = `https://youtube.com/embed/${id.value}?rel=0`;
     }

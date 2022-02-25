@@ -1,10 +1,11 @@
-export default function GalleryItem(props: any) {
+export default function GalleryItem(props) {
   function popup() {
+    var background = document.createElement("div");
+    background.className = "background";
     var main = document.createElement("div");
     var image = document.createElement("img");
     var download = document.createElement("a");
     var exit = document.createElement("button");
-    var mouseOver = false;
     exit.innerText = `✖`;
     exit.classList.add("x");
     download.classList.add("button");
@@ -21,30 +22,24 @@ export default function GalleryItem(props: any) {
     main.appendChild(download);
     main.appendChild(exit);
 
+    document.body.appendChild(background);
     document.body.appendChild(main);
-
-    main.addEventListener("mouseenter", () => {
-      mouseOver = true;
-      console.log(mouseOver);
-    });
-    main.addEventListener("mouseleave", () => {
-      mouseOver = false;
-    });
-
-    main.addEventListener("mousedown", () => {
-      if (mouseOver === false) {
-        main.remove();
-      }
-    });
 
     window.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
         main.remove();
+        background.remove();
       }
+    });
+
+    background.addEventListener("click", () => {
+      main.remove();
+      background.remove();
     });
 
     exit.addEventListener("click", () => {
       main.remove();
+      background.remove();
     });
   }
   return (
