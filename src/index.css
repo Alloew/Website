@@ -4,6 +4,7 @@
     --other: rgb(30, 31, 34);
     --text: rgb(255, 255, 255);
     --blue: rgb(0, 89, 255);
+    --item: rgb(26, 26, 26);
     --shadow: black;
     --item-width: 150px;
     --item-width-large: 300px;
@@ -21,7 +22,7 @@ body {
 
 .Nav {
     position: fixed;
-    background: var(--other);
+    background: var(--bg);
     padding: 8px;
     display: flex;
     gap: 8px;
@@ -62,9 +63,10 @@ body {
 
 .light {
     --bg: rgb(255, 255, 255);
-    --other: rgb(245, 245, 245);
+    --other: rgb(223, 223, 223);
     --text: rgb(0, 0, 0);
     --shadow: rgb(194, 194, 194);
+    --item: rgb(245, 245, 245);
 }
 
 .toggleMode {
@@ -103,7 +105,7 @@ body {
     border-radius: 8px;
     text-align: center;
     gap: 8px;
-    background: var(--other);
+    background: var(--item);
     transition: transform;
     transition-duration: 250ms;
     cursor: pointer;
@@ -144,7 +146,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--other);
+    background: var(--item);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,4 +339,14 @@ h6 {
     bottom: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--other);
+    border-radius: 20px;
+    border: solid 3.5px var(--bg);
 }
