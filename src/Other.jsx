@@ -20,12 +20,6 @@ export default function Other() {
       <br />
       <hr style={{ "width": "90%" }} />
       <br />
-
-      <Youtube />
-
-      <br />
-      <hr style={{ "width": "90%" }} />
-      <br />
     </div>
   );
 }
