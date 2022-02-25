@@ -10,7 +10,7 @@ export default function Youtube() {
     }
   }
   return (
-    <div className="Youtube">
+    <div className="Youtube" id="youtube" style={{"display": "none"}}>
       <h1>Youtube Video Viewer</h1>
       <iframe
         src="//youtube.com/embed/MMkhUqLe82Q?rel=0"

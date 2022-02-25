@@ -1,7 +1,7 @@
 function PBtn(props) {
   function changeVersion() {
     var frame = document.getElementById("turbomanFrame");
-    frame.src = `https://alloew.com/turboman/${props.version}/index.html`;
+    frame.src = `/turboman/${props.version}/index.html`;
     frame.style.display = "flex";
     var verElem = document.getElementById("version");
     if (verElem) {
