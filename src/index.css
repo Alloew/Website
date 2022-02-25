@@ -350,3 +350,20 @@ h6 {
     border-radius: 20px;
     border: solid 3.5px var(--bg);
 }
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--item);
+}
+
+a {
+    color: var(--blue);
+}
+
+#Main {
+    min-height: calc(100vh - 110px);
+}

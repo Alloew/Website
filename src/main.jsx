@@ -7,6 +7,7 @@ import Games from "./Games";
 import Gallery from "./Gallery";
 import Other from "./Other";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import Footer from "./Footer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/other" element={<Other />} />
       </Routes>
     </BrowserRouter>
+    <Footer />
   </React.StrictMode>,
   document.getElementById("root")
 );
