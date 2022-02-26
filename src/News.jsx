@@ -13,6 +13,7 @@ export default function News() {
         Words.Alloew.Com
       </a>
       <img className="logo" src="/alloew.png" alt="Alloew Logo" />
+      <img className="logo" src="/alloew2.png" alt="alt logo" />
     </div>
   );
 }
