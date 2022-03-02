@@ -1,5 +1,6 @@
 import React from "react";
 import Turboman from "./Turboman";
+import TurboFPS from "./TurboFPS";
 
 export default function Games() {
   var game = React.createElement("Turboman");
@@ -13,6 +14,12 @@ export default function Games() {
       <br />
 
       <Turboman />
+
+      <br />
+      <hr style={{ "width": "90%" }} />
+      <br />
+
+      <TurboFPS />
 
       <br />
       <hr style={{ "width": "90%" }} />
