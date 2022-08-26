@@ -9,7 +9,9 @@ export default function Other() {
       <p>Lead Developer : Quinn</p>
       <p>Lead Artist : Flynn</p>
       <p>Artist and Map designer : Jacob</p>
-      <p>And So Many Others!</p>
+      <h2>People that have decided that they want their name to be on Alloew : </h2>
+      <p>Julian</p>
+      <p>Zach</p>
 
       <br />
       <hr style={{ "width": "90%" }} />
