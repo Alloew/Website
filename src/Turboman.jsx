@@ -42,6 +42,7 @@ export default function Turboman() {
         <PBtn version="V1.0S5" />
         <PBtn version="V2_B0.01" />
         <PBtn version="V2_B0.02" />
+        <PBtn version="V2_B0.03" />
       </div>
     </div>
   );
