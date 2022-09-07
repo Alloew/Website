@@ -24,28 +24,41 @@ export default function Turboman() {
         style={{ "display": "none" }}
       />
       <div className="versionPick">
-        <h2>Pick a version (Turboman) (Right is newest, left is oldest)</h2>
-        <PBtn version="A1.0" />
-        <PBtn version="A2.0" />
-        <PBtn version="A3.1" />
-        <PBtn version="A3.2" />
-        <PBtn version="A3.2.1" />
-        <PBtn version="A3.3" />
-        <PBtn version="B1.0" />
-        <PBtn version="B1.1" />
-        <PBtn version="B1.1.1" />
-        <PBtn version="V1.0S1" />
-        <PBtn version="V1.0S2" />
-        <PBtn version="V1.0S2" />
-        <PBtn version="V1.0S4" />
-        <PBtn version="V1.0S4.1" />
-        <PBtn version="V1.0S5" />
-        <PBtn version="V2_B0.01" />
-        <PBtn version="V2_B0.02" />
-        <PBtn version="V2_B0.03" />
-        <PBtn version="V2_B0.04" />
-        <PBtn version="V2_B0.05" />
-        <PBtn version="V2_B0.06" />
+        <div className="versionRow">
+          <div className="versionColumn">
+            <span>Turboman 1</span>
+            <PBtn version="V1.0S5" />
+            <details className="versionColumn">
+            <summary>More</summary>
+              <PBtn version="V1.0S4" />
+              <PBtn version="V1.0S4.1" />
+              <PBtn version="V1.0S2" />
+              <PBtn version="V1.0S2" />
+              <PBtn version="V1.0S1" />
+              <PBtn version="B1.1" />
+              <PBtn version="B1.1.1" />
+              <PBtn version="B1.0" />
+              <PBtn version="A3.3" />
+              <PBtn version="A3.2" />
+              <PBtn version="A3.2.1" />
+              <PBtn version="A3.1" />
+              <PBtn version="A2.0" />
+              <PBtn version="A1.0" />
+            </details>
+          </div>
+          <div className="versionColumn">
+          <span>Turboman 2</span>
+            <PBtn version="V2_B0.06" />
+            <details className="versionColumn">
+              <summary>More</summary>
+              <PBtn version="V2_B0.05" />
+              <PBtn version="V2_B0.04" />
+              <PBtn version="V2_B0.03" />
+              <PBtn version="V2_B0.02" />
+              <PBtn version="V2_B0.01" />
+            </details>
+          </div>
+        </div>
       </div>
     </div>
   );
