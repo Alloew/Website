@@ -14,6 +14,7 @@ export default function Games() {
       <br />
 
       <Turboman />
+      <h1>Type your best times below pls</h1>
 
       <br />
       <hr style={{ "width": "90%" }} />
