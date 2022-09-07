@@ -426,3 +426,24 @@ a {
     text-align: center;
     gap: 12px;
 }
+
+.worldRecordsDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    padding: 12px;
+    background: yellow;
+    color: black;
+    border-radius: 4px;
+}
+
+.worldRecordTitle{
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+
+.worldRecord{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

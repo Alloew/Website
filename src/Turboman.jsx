@@ -9,7 +9,7 @@ function PBtn(props) {
     }
   }
   return (
-    <button onClick={changeVersion} id="pickButton" className="button">{props.version}</button >
+    <button style={{background: props.color}} onClick={changeVersion} id="pickButton" className="button">{props.name ? props.name : props.version}</button >
   )
 }
 
@@ -27,9 +27,10 @@ export default function Turboman() {
         <div className="versionRow">
           <div className="versionColumn">
             <span>Turboman 1</span>
-            <PBtn version="V1.0S5" />
+            <PBtn name="Original" version="V1.0S5" />
             <details className="versionColumn">
             <summary>More</summary>
+              <PBtn version="V1.0S5" />
               <PBtn version="V1.0S4" />
               <PBtn version="V1.0S4.1" />
               <PBtn version="V1.0S2" />
@@ -48,9 +49,10 @@ export default function Turboman() {
           </div>
           <div className="versionColumn">
           <span>Turboman 2</span>
-            <PBtn version="V2_B0.06" />
+            <PBtn color="rgb(7, 201, 25)" name="Latest" version="V2_B0.06" />
             <details className="versionColumn">
               <summary>More</summary>
+              <PBtn version="V2_B0.06" />
               <PBtn version="V2_B0.05" />
               <PBtn version="V2_B0.04" />
               <PBtn version="V2_B0.03" />
@@ -60,6 +62,12 @@ export default function Turboman() {
           </div>
         </div>
       </div>
+      <h2 className="worldRecordTitle">World Records! (Latest version only)</h2>
+      <div className="worldRecordsDiv">
+        <span className="worldRecord">Practice 1 : 7.00 Set by Flynn</span>
+        <span className="worldRecord">Practice 2 : No records</span>
+      </div>
+      <span></span>
     </div>
   );
 }
