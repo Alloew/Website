@@ -15,6 +15,8 @@ export default function Games() {
 
       <Turboman />
       <h1>Type your best times below pls</h1>
+      <h3>Practice 1 World Record - 7.00 Set by Flynn</h3>
+      <h3>Practice 2 World Record - Unknown</h3>
 
       <br />
       <hr style={{ "width": "90%" }} />
