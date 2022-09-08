@@ -49,9 +49,10 @@ export default function Turboman() {
           </div>
           <div className="versionColumn">
           <span>Turboman 2</span>
-            <PBtn color="rgb(7, 201, 25)" name="Latest" version="V2_B0.06" />
+            <PBtn color="rgb(7, 201, 25)" name="Latest" version="V2_B0.07" />
             <details className="versionColumn">
               <summary>More</summary>
+              <PBtn version="V2_B0.07" />
               <PBtn version="V2_B0.06" />
               <PBtn version="V2_B0.05" />
               <PBtn version="V2_B0.04" />
