@@ -64,7 +64,8 @@ export default function Turboman() {
         </div>
       </div>
       <h2 className="worldRecordTitle">World Records! (Latest version only)</h2>
-      <span>(If you get a record, just for verification, take a screenshot, and post it in the chat below)</span>
+      <p>(If you get a record, just for verification, take a screenshot, and post it in the chat below)</p>
+      <br />
       <div className="worldRecordsDiv">
         <span className="worldRecord">Practice 1 : 6.94 Set by Quinn</span>
         <span className="worldRecord">Practice 2 : 3.25 Set by Austin</span>
