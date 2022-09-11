@@ -27,6 +27,9 @@ export default function Nav() {
       <a className="link" href="/gallery">
         Gallery
       </a>
+      <a className="link halloween" href="/halloween">
+        HALLOWEEN
+      </a>
       <a className="link" href="/other">
         Other
       </a>

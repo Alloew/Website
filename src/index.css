@@ -447,3 +447,24 @@ a {
     font-size: 22px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.halloween{
+    color: rgb(255, 132, 0);
+}
+
+.halloweenMain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.outline{
+    outline: solid 1px white;
+    background: var(--other);
+    border-radius: 4px;
+    max-width: 90vw;
+    padding: 12px;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.148);
+}
