@@ -68,8 +68,8 @@ export default function Turboman() {
       <p>(If you get a record, just for verification, take a screenshot, and post it in the chat below)</p>
       <br />
       <div className="worldRecordsDiv">
-        <span className="worldRecord">Practice 1 : 6.77 Set by Quinn</span>
-        <span className="worldRecord">Practice 2 : 3.25 Set by Austin</span>
+        <span className="worldRecord">Practice 1 : None</span>
+        <span className="worldRecord">Practice 2 : None</span>
       </div>
       <span></span>
     </div>
