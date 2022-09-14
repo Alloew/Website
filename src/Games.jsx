@@ -3,17 +3,17 @@ import Turboman from "./Turboman";
 import TurboFPS from "./TurboFPS";
 
 function Ad(){
-    var atOptions = {
-      'key' : '980183fb59fca582e2dd47d3773b4e5e',
-      'format' : 'iframe',
-      'height' : 90,
-      'width' : 728,
-      'params' : {}
-    }
-    
-    return(
-      <script type="text/javascript" src={"http" + (location.protocol === 'https:' ? 's' : '') + "://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"}></script>
-    )
+  var atOptions = {
+		'key' : '980183fb59fca582e2dd47d3773b4e5e',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"></scr' + 'ipt>');
+  return(
+    <div></div>
+  )
 }
 
 export default function Games() {
