@@ -1,38 +1,28 @@
 import React from "react";
 import Turboman from "./Turboman";
-import TurboFPS from "./TurboFPS";
+import InnerHTML from 'dangerously-set-html-content'
 
-function CreateScript(){
-  return{__html: "atOptions = {'key' : '980183fb59fca582e2dd47d3773b4e5e','format' : 'iframe','height' : 90,'width' : 728,'params' : {}};"}
-}
+export default function Games() {
+  var game = React.createElement("Turboman");
 
-function Ad(){
-  var atOptions = {
+  const ad = `<script type="text/javascript">
+	atOptions = {
 		'key' : '980183fb59fca582e2dd47d3773b4e5e',
 		'format' : 'iframe',
 		'height' : 90,
 		'width' : 728,
 		'params' : {}
 	};
-  return(
-    <>
-      <script type="text/javascript" dangerouslySetInnerHTML={CreateScript()}></script>
-      <script type="text/javascript" src={"http" + (location.protocol === 'https:' ? 's' : '') + "://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"}></script>
-    </>
-  )
-}
-
-export default function Games() {
-  var game = React.createElement("Turboman");
+</script>
+<script type="text/javascript" src="https://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"></script>`;
 
   return (
     <div id="Main" className="Games">
       <h1>Games</h1>
-      <br></br>
 
-      <Ad/>
-    
-    
+      <InnerHTML html={ad} />
+      <span>We have ads now</span>
+
       <br />
       <hr style={{ "width": "90%" }} />
       <br />
