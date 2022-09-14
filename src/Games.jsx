@@ -2,6 +2,10 @@ import React from "react";
 import Turboman from "./Turboman";
 import TurboFPS from "./TurboFPS";
 
+function CreateScript(){
+  return{__html: "atOptions = {'key' : '980183fb59fca582e2dd47d3773b4e5e','format' : 'iframe','height' : 90,'width' : 728,'params' : {}};"}
+}
+
 function Ad(){
   var atOptions = {
 		'key' : '980183fb59fca582e2dd47d3773b4e5e',
@@ -10,9 +14,11 @@ function Ad(){
 		'width' : 728,
 		'params' : {}
 	};
-	<script type="text/javascript" src={"http" + (location.protocol === 'https:' ? 's' : '') + "://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"}></script>
   return(
-    <div></div>
+    <>
+      <script type="text/javascript" dangerouslySetInnerHTML={CreateScript()}></script>
+      <script type="text/javascript" src={"http" + (location.protocol === 'https:' ? 's' : '') + "://www.highperformancedisplayformat.com/980183fb59fca582e2dd47d3773b4e5e/invoke.js"}></script>
+    </>
   )
 }
 
