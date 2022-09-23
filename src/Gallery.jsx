@@ -1,7 +1,7 @@
 import GalleryItem from "./GalleryItem";
 // import InnerHTML from 'dangerously-set-html-content'
 
-// export default function Gallery() {
+export default function Gallery() {
 //   const ad = `<script type="text/javascript">
 // 	atOptions = {
 // 		'key' : '980183fb59fca582e2dd47d3773b4e5e',
