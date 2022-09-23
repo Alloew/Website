@@ -6,7 +6,6 @@ export default function Gallery() {
   return (
     <div id="Main" className="galleryMain">
       <br /><br />
-//       <InnerHTML html={ad}></InnerHTML>
       <br />
       <h1>Simpson Sells</h1>
       <span>If you don't buy this, then your a SIMP son.</span>
