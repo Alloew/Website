@@ -1,7 +1,7 @@
 import Youtube from "./Youtube";
 // import InnerHTML from 'dangerously-set-html-content'
 
-// export default function Other() {
+export default function Other() {
 //   const ad = `<script type="text/javascript">
 // 	atOptions = {
 // 		'key' : '980183fb59fca582e2dd47d3773b4e5e',
