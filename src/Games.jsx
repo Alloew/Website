@@ -7,7 +7,6 @@ export default function Games() {
     <div id="Main" className="Games">
       <h1>Games</h1>
 
-//       <InnerHTML html={ad} />
       <span>We have ads now</span>
 
       <br />
