@@ -2,7 +2,7 @@ import React from "react";
 import Turboman from "./Turboman";
 // import InnerHTML from 'dangerously-set-html-content'
 
-// export default function Games() {
+export default function Games() {
 //   var game = React.createElement("Turboman");
 
 //   const ad = `<script type="text/javascript">
