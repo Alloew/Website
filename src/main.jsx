@@ -5,7 +5,7 @@ import App from "./Home";
 import Nav from "./Nav";
 import Games from "./Games";
 import Gallery from "./Gallery";
-import Halloween from "./Halloween";
+import Productions from "./Productions";
 import Other from "./Other";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Footer from "./Footer";
@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route path="/game" element={<Games />} />
         <Route path="/games" element={<Games />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/halloween" element={<Halloween />} />
+        <Route path="/productions" element={<Productions />} />
         <Route path="/other" element={<Other />} />
       </Routes>
     </BrowserRouter>
