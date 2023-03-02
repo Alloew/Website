@@ -9,7 +9,6 @@ export default function Other() {
       <p>Lead Developer : Quinn</p>
       <p>Lead Artist : Flynn</p>
       <p>Artist and Map designer : Jacob</p>
-      <p>And So Many Others!</p>
 
       <br />
       <hr style={{ "width": "90%" }} />
