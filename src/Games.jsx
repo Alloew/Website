@@ -1,5 +1,6 @@
 import React from "react";
 import Turboman from "./Turboman";
+import TurboFPS from "./TurboFPS";
 
 export default function Games() {
 
