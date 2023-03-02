@@ -23,6 +23,21 @@ export default function Games() {
 
       <br />
       <hr style={{ "width": "90%" }} />
+      <br /><br />
+
+      <a href="https://micmacmoe.quinnthecoder.repl.co/">Link to Mic Mac Moe</a>
+      <br />
+      <button className="button" onClick={
+        () => {
+          var mmmFrame = document.getElementById("mmm");
+          mmmFrame.src = mmmFrame.src;
+        }
+      }>Refresh</button>
+      <br />
+      <iframe id="mmm" className="youtubeFrame shadow rounded" src="https://micmacmoe.quinnthecoder.repl.co/" />
+
+      <br />
+      <hr style={{ "width": "90%" }} />
       <br />
     </div>
   );
