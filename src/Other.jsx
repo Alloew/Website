@@ -20,7 +20,7 @@ export default function Other() {
       <hr style={{ "width": "90%" }} />
       <br />
 
-      <iframe className="youtubeFrame shadow rounded" src="https://deadsimplechat.com/Vc3zaUSkv" />
+      <iframe className="youtubeFrame shadow rounded" src="https://chat.quinnthecoder.repl.co/" />
 
       <br />
       <hr style={{ "width": "90%" }} />
