@@ -9,6 +9,7 @@ import Productions from "./Productions";
 import Other from "./Other";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Footer from "./Footer";
+import Quinn from "./Quinn";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/productions" element={<Productions />} />
         <Route path="/other" element={<Other />} />
+        <Route path="/quinn" element={<Quinn />} />
       </Routes>
     </BrowserRouter>
     <Footer />
