@@ -15,14 +15,14 @@ export default function Games() {
 
       <Turboman />
 
-      <br />
-      <hr style={{ width: "90%" }} />
+      {/* <br /> */}
+      {/* <hr style={{ width: "90%" }} />
       <br />
 
       <TurboFPS />
 
       <br />
-      <hr style={{ width: "90%" }} />
+      <hr style={{ width: "90%" }} /> */}
       {/* <br />
       <br />
 
