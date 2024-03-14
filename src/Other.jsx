@@ -14,6 +14,7 @@ export default function Other() {
       </h2>
       <p>Julian</p>
       <p>Zach</p>
+      <p>Caleb</p>
       {/* <br /><h3>Type in chat below if you want to have your name here!</h3> */}
 
       {/* <br />
