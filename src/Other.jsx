@@ -15,10 +15,10 @@ export default function Other() {
       <p>Julian</p>
       <p>Zach</p>
       <p>Caleb</p>
-      <h2>People who beg to be on this website really bad</h2>
+      <h2>People who beg to be on this website really bad:</h2>
       <p>Elon Musk</p>
-      <h2>petitewhitegirl</h2>
-      <p>Roger Thomas-Ivy</p>
+      <h2>petitewhitegirl:</h2>
+      <p>Roger Thomas-Ivy who also really wants to be called a developer</p>
       {/* <br /><h3>Type in chat below if you want to have your name here!</h3> */}
 
       {/* <br />
